@@ -1,6 +1,6 @@
 <style type="text/css"></style>
 
-<form action="register.php" method="post">
+<form action="konten/register.php" method="post">
     <p>&nbsp;</p>
     <div align="center" class="style1">
         <p>REGISTER</p>
@@ -47,3 +47,5 @@
             <td>&nbsp;</td>
             <td><input type="submit" value="Input" /></td>
         </tr>
+    </table>
+</form>

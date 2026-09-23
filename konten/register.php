@@ -6,7 +6,7 @@ $mysql = "INSERT INTO register (namadep, namabel, username, password, usia, jk, 
 if(!mysql_query($mysql))
 die (mysql_error());
 
-echo"<script>alert('Selamat, anda telah terdaftar');window.location.hreft='index.php';</script>";
+echo"<script>alert('Selamat, anda telah terdaftar');window.location.href='../index.php';</script>";
 
 mysql_close();
 ?>
